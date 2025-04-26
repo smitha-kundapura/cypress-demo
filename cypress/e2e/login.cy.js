@@ -33,6 +33,7 @@ describe('Login Form Validation', () => {
             expect(txt).to.contains('Login successful');
           });
         });
+    });
   
     it('submits when both fields are filled', () => {
       cy.get('#username').type('admin');
