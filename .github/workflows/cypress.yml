@@ -34,8 +34,5 @@ jobs:
       - name: Install Cypress binary
         run: npx cypress install
 
-      - name: Compile TypeScript (optional if needed)
-        run: npm run build  
-
       - name: Run Cypress tests
         run: npx cypress run
